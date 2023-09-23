@@ -1,6 +1,6 @@
 :root{
   --Inter: 'Inter', Sans-serif;
-  --PressStart2P: 'PressStart2P', Sans-serif;
+  --PressStart2P: 'PressStart2P', fantasy;
   --font-weight: 400;
   --title-font-weight: 700;
   --bg-color: #fff;
@@ -12,17 +12,3 @@
               repeating-linear-gradient(to bottom, var(--gradient-color-st) 0px 2px, transparent 2px 4px),
               linear-gradient(to bottom, var(--gradient-color-nd) 0.01%, var(--gradient-color-rd));
 }   
-
-
-
-/*
-    --title-color: #db00ff;
-    --accent-text-color: #000028; 
-    --accent-title-color: #ff0070;
-    --text-color: #f1b2ce;
-    --hover-outline-color: rgba(255, 0, 112, 0.40);
-    
-    --margin-s: 10px;
-    --margin-l: 20px;*/
-
-  

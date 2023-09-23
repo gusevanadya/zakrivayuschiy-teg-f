@@ -24,6 +24,16 @@
                 repeating-linear-gradient(to bottom, var(--gradient-color-st) 0px 2px, transparent 2px 4px),
                 linear-gradient(to bottom, var(--gradient-color-nd) 0.01%, var(--gradient-color-rd));
   }
+
+  .button__text {
+    color: var(--bg-color);
+    mix-blend-mode: difference;
+  }
+
+  .floppy {
+    color: #fff;
+    mix-blend-mode: difference;
+  }
 }
 
 :root.theme-dark {
@@ -51,5 +61,15 @@
       --bg-image: repeating-linear-gradient(to right, var(--gradient-color-st) 0px 2px, transparent 2px 4px),
                   repeating-linear-gradient(to bottom, var(--gradient-color-st) 0px 2px, transparent 2px 4px),
                   linear-gradient(to bottom, var(--gradient-color-nd), var(--gradient-color-rd));
+    }
+
+    .button__text{
+      color: var(--accent-color);
+      mix-blend-mode: difference;
+    }
+    
+    .floppy{
+      color: #00cc14;
+      mix-blend-mode: difference;
     }
 }
